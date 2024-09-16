@@ -1,5 +1,5 @@
 import React from 'react'
-
+import slide from './slide/slide'
 const BlogHome = () => {
 
     const data = [
@@ -48,7 +48,9 @@ const BlogHome = () => {
                     })
                 }
             </div>
-            <div className="right-content"></div>
+            <div className="right-content">
+                <slide />
+            </div>
         </section>
     </>
   )

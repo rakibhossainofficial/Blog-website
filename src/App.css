@@ -49,4 +49,89 @@ h2{
 }
 .top{
     margin-top: 80px;
+    
+}
+
+
+/* -------------------- left-content------------------- */
+
+.home{
+    display: flex;
+
+}
+
+.right-content, 
+.right-content{
+    width: 50%;
+}
+
+.content{
+    padding: 30px;
+
+}
+
+.left-content{
+    height: 110vh;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    color: white;
+    overflow: hidden;
+
+}
+
+
+.home-img img{
+    position: absolute;
+    left: -40%;
+    top: -0%;
+    height: 110vh !important;
+    z-index: -1;
+
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    background-color: aliceblue;
+    color: black;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+.left-content .text{
+    width: 45%;
+    margin-top: 15%;
+}
+
+.left-content .text h1{
+    font-style: 48px;
+    line-height: 50px;
+}
+
+.left-content .text p{
+    margin: 20px 0 5px 0;
+   
+}
+
+.left-content .text2{
+    float: right;
+    text-align: right;
+}
+
+.left-content .qrcode img{
+    margin-top: 25%;
+}
+
+
+
+/* ------------------right-content------------------- */
+
+.right-content{
+    padding: 40px;
+    color: #000;
+    position: absolute;
+    background-color: aquamarine;
+    right: 0;
 }
