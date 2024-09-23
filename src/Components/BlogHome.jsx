@@ -1,7 +1,9 @@
 import React from 'react'
-import slide from './slide/slide'
-const BlogHome = () => {
+import Slide from './slide/slide'
 
+
+
+const BlogHome = () => {
     const data = [
         {
           id: 1,
@@ -12,7 +14,9 @@ const BlogHome = () => {
           name: "By Jasmin Smith",
           subTitle: "How to Shop Mindfully",
           qrCode: "/images/qrcode.png",
-          cover: "/images/blog5.jpg",
+          cover: "/images/blog-cover.jpg",
+          cover2: "/images/card-1.jpg",
+
         },
     ]
 
@@ -49,7 +53,7 @@ const BlogHome = () => {
                 }
             </div>
             <div className="right-content">
-                <slide />
+                <Slide />
             </div>
         </section>
     </>
